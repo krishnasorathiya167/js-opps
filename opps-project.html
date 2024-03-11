@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // wap to javascript class and object method use program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer. Calculate percentage and grade according to following.
+
+        // class students{
+        //     constructor(physics, chemistry, biology, mathematics,computer){
+        //         this.physics = parseInt(prompt("Enter physics marks "))
+        //         this.chemistry = parseInt(prompt("Enter chemistry marks "))
+        //         this.biology = parseInt(prompt("Enter biology marks "))
+        //         this.mathematics = parseInt(prompt("Enter mathematic marks "))
+        //         this.computer = parseInt(prompt("Enter computer marks "))
+        //     }
+
+        //     marks(){
+        //         console.log(`physics :${this.physics}`);
+        //         console.log(`chemistry :${this.chemistry}`);
+        //         console.log(`biology :${this.biology}`);
+        //         console.log(`mathematics :${this.mathematics}`);
+        //         console.log(`computer :${this.computer}`);
+        //     }
+
+        //     result(physics,chemistry,biology,mathematics,computer){
+        //         this.marks();
+        //         let total = this.physics + this.chemistry + this.biology + this.mathematics + this.computer;
+        //         console.log(`Total = ${total}`);
+        //         let per = total / 5;
+        //         if(per>=90 && per <=100)
+        //         {
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : A");
+        //         }else if(per>=80 && per<=89){
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : B");
+        //         }
+        //         else if(per>=70 && per<=79)
+        //         {
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : C");
+        //         }else if(per>=60 && per<=69)
+        //         {
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : D");
+        //         }else if(per>=50 && per<=59)
+        //         {
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : E");
+        //         }else if(per>=40 && per<=49)
+        //         {
+        //             console.log(`percentage ${per}%`);
+        //             console.log("Grade : E");
+        //         }else{
+        //             console.log("You Are Fali");
+        //         }
+        //     }
+        // }
+
+        // s1 = new students();
+        // s1.result();
+
+        // 2.write a javascript program to below data print html table using constructor method.
+
+        // class data{
+        //     constructor(name,email,phone){
+        //         this.name = name;
+        //         this.email = email;
+        //         this.phone = phone;
+        //     }
+        //     print(){
+        //         console.log(`name : ${this.name} , email : ${this.email} , phone : ${this.phone}`);
+        //     }
+        // }
+
+        // s1 = new data("jay","jay@gmail.com","12345");
+        // s1.print();
+
+        // s3 =  new data("ajay","ajay@gmail.com","12345");
+        // s3.print();
+
+        // s4 =  new data("vijay","vijay@gmail.com","12345");
+        // s4.print();
+
+        // s5 =  new data("ashish","ashish@gmail.com","12345");
+        // s5.print();
+
+        // 3. write a javascript program to use class and object print multiplication table of any number using do while loop.
+
+        // class table{
+        //     constructor(num)
+        //     {
+        //         this.num = num;
+        //     }
+        //     print(num , i)
+        //     {
+        //         i = 1;
+        //         do{
+                    
+        //             console.log(this.num , i , this.num * i);
+        //             i++;
+        //         }while(i<=10)
+        //     }    
+        // }
+        // s1 = new table(5);
+        // s1.print();
+
+
+        // 4. Write a Javascript program to create a class called "Employee" with a name, salary, and hire date attributes, and a method to calculate years of service.
+
+        // class Employee{
+        //     constructor(name,salary,hiredate,hiremonth,hireyear)
+        //     {
+        //         this.name = name;
+        //         this.salary = salary;
+        //         this.hiredate = hiredate;
+        //         this.hiremonth = hiremonth;
+        //         this.hireyear = hireyear;
+        //     }
+        //     detail(){
+        //         console.log(`Name : ${this.name}`);
+        //         console.log(`Salary : ${this.salary}`);
+        //         console.log(`Hire Date : ${this.hiredate}-${this.hiremonth}-${this.hireyear}`);
+        //         let date = new Date();
+        //         console.log(`Today Date :${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`);
+        //     }
+        //     year(hireDate,hireyear,hiremonth) {
+        //         let date = new Date();
+        //         console.log(`years of service : ${date.getFullYear()-this.hireyear} Years ${date.getMonth()+1-this.hiremonth} month ${date.getDate()-this.hiredate} Day`);
+        //     }
+        // }
+         
+        // s1 = new Employee("payal",15000,15,3,2020);
+        // s1.detail();
+        // s1.year();
+
+        // 5.Write a Javascript program to create a class called "Library" with a collection of books and methods to add and remove books.
+
+        // class Library{
+        //     constructor(array){
+        //         this.array = []
+        //     }
+        //     books(){
+        //         console.log("books");
+        //         this.array = ['ramlila','ramayan','mahabharat']
+        //         console.log(this.array);
+        //     }
+        //     remove(array){
+        //         console.log("remove book");
+        //         let rbook = "ramayan"
+        //         let result = this.array.filter((val)=>val != rbook)
+        //         console.log(result);
+        //     }
+        //     add(array){
+        //         this.array.push("bhagvatgeeta","krishna");
+        //         console.log(this.array);
+        //     }
+        // }
+
+        // s1 = new Library();
+        // s1.books()
+        // s1.remove()
+        // s1.add()
+
+        // 6.Write a Javascript program to create a class called "Restaurant" with attributes for menu items, prices, and ratings, and methods to add and remove items, and to calculate average rating.
+
+        class Restaurant {
+            constructor() {
+                this.menuItems = {};
+                this.prices = {};
+                this.ratings = [];
+            }
+            addItem(item, price, rating) {
+                this.menuItems[item] = price;
+                this.prices[item] = price;
+                this.ratings.push(rating);
+                console.log(`${item}  ${price} added to the menu.`);
+            }
+            removeItem(item) {
+                if (this.menuItems.hasOwnProperty(item)) {
+                    delete this.menuItems[item];
+                    delete this.prices[item];
+                    console.log(`${item} removed from the menu.`);
+                } else {
+                    console.log(`${item} not found in the menu.`);
+                }
+            }
+            CRating() {
+                if (this.ratings.length === 0) {
+                    return 0;
+                }
+
+                const sum = this.ratings.reduce((acc, rating) => acc + rating, 0);
+                const averageRating = sum / this.ratings.length;
+                return averageRating;
+            }
+        }
+
+
+        let r1 = new Restaurant();
+
+        r1.addItem("chips", 120, 4);
+        r1.addItem("dhossa", 200, 5);
+        r1.addItem("puff", 50, 3);
+
+        r1.removeItem("dhossa");
+        console.log("Average Rating:", r1.CRating());
+
+
+
+
+    </script>
+</body>
+
+</html>
